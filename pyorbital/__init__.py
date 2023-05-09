@@ -23,7 +23,7 @@ import numpy as np
 from .version import get_versions
 __version__ = get_versions()['version']
 del get_versions
-
+from .planets import Moon
 
 def dt2np(utc_time):
     try:
